@@ -61,9 +61,9 @@ Partial Class Login
         Me.Label2.Font = New System.Drawing.Font("VNI-Avo", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label2.Location = New System.Drawing.Point(251, 83)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(100, 24)
+        Me.Label2.Size = New System.Drawing.Size(21, 24)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Username:"
+        Me.Label2.Text = "c"
         '
         'Label3
         '
@@ -83,7 +83,7 @@ Partial Class Login
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(227, 29)
         Me.TextBox1.TabIndex = 4
-        Me.TextBox1.Text = "james"
+        Me.TextBox1.Text = "c"
         '
         'TextBox2
         '
