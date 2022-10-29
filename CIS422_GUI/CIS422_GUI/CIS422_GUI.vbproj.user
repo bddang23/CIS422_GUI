@@ -10,7 +10,19 @@
     <Compile Update="Import Screen\Temporary_Import.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Login Screen\ForgetScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login Screen\ForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Login Screen\LoginScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login Screen\Success_ForgetPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View Schedule Screen\MainScreen.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
