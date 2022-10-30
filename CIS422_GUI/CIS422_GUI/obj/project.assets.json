@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "WindowsFormsCalendar/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/WindowsFormsCalendar.dll": {}
+        },
+        "runtime": {
+          "lib/WindowsFormsCalendar.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WindowsFormsCalendar/1.1.0": {
+      "sha512": "5GradxFOci1vHP9xarJCPaacOvADcbLToqScwlPj2VxQGw4B/IyqxpLN7CtsAtYXL9FttT3e8tt8jQFVYjRRJw==",
+      "type": "package",
+      "path": "windowsformscalendar/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/WindowsFormsCalendar.dll",
+        "windowsformscalendar.1.1.0.nupkg.sha512",
+        "windowsformscalendar.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "WindowsFormsCalendar >= 1.1.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\DELL\\.nuget\\packages\\": {},
@@ -52,6 +77,12 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "WindowsFormsCalendar": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -73,5 +104,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WindowsFormsCalendar 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WindowsFormsCalendar",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

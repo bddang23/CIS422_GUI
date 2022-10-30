@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "CIS422_GUI/1.0.0": {
+        "dependencies": {
+          "WindowsFormsCalendar": "1.1.0"
+        },
+        "runtime": {
+          "CIS422_GUI.dll": {}
+        }
+      },
       "WindowsFormsCalendar/1.1.0": {
         "runtime": {
           "lib/WindowsFormsCalendar.dll": {
@@ -17,6 +25,11 @@
     }
   },
   "libraries": {
+    "CIS422_GUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "WindowsFormsCalendar/1.1.0": {
       "type": "package",
       "serviceable": true,

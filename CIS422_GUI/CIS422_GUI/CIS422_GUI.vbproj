@@ -6,6 +6,7 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>
@@ -46,7 +47,10 @@
 
   <ItemGroup>
     <Folder Include="Admin Screen\" />
-    <Folder Include="View Schedule Screen\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WindowsFormsCalendar" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>
