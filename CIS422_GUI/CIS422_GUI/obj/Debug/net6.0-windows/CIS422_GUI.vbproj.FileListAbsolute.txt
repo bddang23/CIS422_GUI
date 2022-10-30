@@ -26,3 +26,4 @@ D:\FALL 2022\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GU
 D:\FALL 2022\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.MainScreen.resources
 D:\FALL 2022\CIS422_GUI\CIS422_GUI\CIS422_GUI\bin\Debug\net6.0-windows\WindowsFormsCalendar.dll
 D:\FALL 2022\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.vbproj.CopyComplete
+D:\FALL 2022\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.admin.resources
