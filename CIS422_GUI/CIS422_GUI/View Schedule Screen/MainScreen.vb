@@ -10,4 +10,8 @@
     Private Sub MainScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub Calendar1_LoadItems(sender As Object, e As WindowsFormsCalendar.CalendarLoadEventArgs) Handles Calendar1.LoadItems
+
+    End Sub
 End Class
