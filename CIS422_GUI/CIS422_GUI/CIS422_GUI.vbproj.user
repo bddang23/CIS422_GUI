@@ -25,7 +25,19 @@
     <Compile Update="Login Screen\Success_ForgetPassword.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View Schedule Screen\Filter.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View Schedule Screen\MainScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View Schedule Screen\Section View\SectionEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View Schedule Screen\Section View\SectionInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View Schedule Screen\Section View\SectionInfo.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

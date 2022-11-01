@@ -12,6 +12,11 @@
         },
         "runtime": {
           "CIS422_GUI.dll": {}
+        },
+        "resources": {
+          "dje-NE/CIS422_GUI.resources.dll": {
+            "locale": "dje-NE"
+          }
         }
       },
       "WindowsFormsCalendar/1.1.0": {
