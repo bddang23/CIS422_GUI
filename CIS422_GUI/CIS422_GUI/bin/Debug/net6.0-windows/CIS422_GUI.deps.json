@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CIS422_GUI/1.0.0": {
+        "dependencies": {
+          "WindowsFormsCalendar": "1.1.0"
+        },
+        "runtime": {
+          "CIS422_GUI.dll": {}
+        },
+        "resources": {
+          "dje-NE/CIS422_GUI.resources.dll": {
+            "locale": "dje-NE"
+          }
+        }
+      },
+      "WindowsFormsCalendar/1.1.0": {
+        "runtime": {
+          "lib/WindowsFormsCalendar.dll": {
+            "assemblyVersion": "1.1.4610.23063",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CIS422_GUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WindowsFormsCalendar/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5GradxFOci1vHP9xarJCPaacOvADcbLToqScwlPj2VxQGw4B/IyqxpLN7CtsAtYXL9FttT3e8tt8jQFVYjRRJw==",
+      "path": "windowsformscalendar/1.1.0",
+      "hashPath": "windowsformscalendar.1.1.0.nupkg.sha512"
+    }
+  }
+}

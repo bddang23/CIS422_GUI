@@ -23,8 +23,6 @@ Partial Class SectionEdit
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.ListBox2 = New System.Windows.Forms.ListBox()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
@@ -32,7 +30,6 @@ Partial Class SectionEdit
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
@@ -41,7 +38,6 @@ Partial Class SectionEdit
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label35 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -55,8 +51,6 @@ Partial Class SectionEdit
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -68,41 +62,40 @@ Partial Class SectionEdit
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.NumericUpDown2 = New System.Windows.Forms.NumericUpDown()
+        Me.NumericUpDown3 = New System.Windows.Forms.NumericUpDown()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.NumericUpDown4 = New System.Windows.Forms.NumericUpDown()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker4 = New System.Windows.Forms.DateTimePicker()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'ListBox2
-        '
-        Me.ListBox2.Font = New System.Drawing.Font("VNI-Avo", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.ItemHeight = 21
-        Me.ListBox2.Items.AddRange(New Object() {"Comments for Academic Affairs:"})
-        Me.ListBox2.Location = New System.Drawing.Point(43, 714)
-        Me.ListBox2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(578, 130)
-        Me.ListBox2.TabIndex = 73
-        '
-        'ListBox1
-        '
-        Me.ListBox1.Font = New System.Drawing.Font("VNI-Avo", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 21
-        Me.ListBox1.Items.AddRange(New Object() {"NOTES:"})
-        Me.ListBox1.Location = New System.Drawing.Point(43, 576)
-        Me.ListBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(578, 109)
-        Me.ListBox1.TabIndex = 72
         '
         'Label14
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("VNI-Avo", 10.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label14.Location = New System.Drawing.Point(392, 312)
+        Me.Label14.Location = New System.Drawing.Point(404, 319)
         Me.Label14.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(92, 23)
@@ -113,7 +106,7 @@ Partial Class SectionEdit
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("VNI-Avo", 10.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label13.Location = New System.Drawing.Point(392, 266)
+        Me.Label13.Location = New System.Drawing.Point(399, 269)
         Me.Label13.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(97, 23)
@@ -174,17 +167,6 @@ Partial Class SectionEdit
         Me.Label23.Size = New System.Drawing.Size(50, 28)
         Me.Label23.TabIndex = 66
         Me.Label23.Text = "LEC"
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("VNI-Avo", 11.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label36.Location = New System.Drawing.Point(506, 312)
-        Me.Label36.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(102, 28)
-        Me.Label36.TabIndex = 65
-        Me.Label36.Text = "10:20 AM"
         '
         'Label34
         '
@@ -273,17 +255,6 @@ Partial Class SectionEdit
         Me.Label21.Size = New System.Drawing.Size(138, 28)
         Me.Label21.TabIndex = 54
         Me.Label21.Text = "James, Scott"
-        '
-        'Label35
-        '
-        Me.Label35.AutoSize = True
-        Me.Label35.Font = New System.Drawing.Font("VNI-Avo", 11.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label35.Location = New System.Drawing.Point(506, 266)
-        Me.Label35.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(91, 28)
-        Me.Label35.TabIndex = 53
-        Me.Label35.Text = "8:30 AM"
         '
         'Label24
         '
@@ -428,28 +399,6 @@ Partial Class SectionEdit
         Me.Label3.TabIndex = 43
         Me.Label3.Text = "Subject: "
         '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("VNI-Avo", 11.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(126, 181)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(45, 28)
-        Me.Label5.TabIndex = 41
-        Me.Label5.Text = "422"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("VNI-Avo", 11.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(172, 133)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(38, 28)
-        Me.Label4.TabIndex = 39
-        Me.Label4.Text = "CS"
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
@@ -510,7 +459,7 @@ Partial Class SectionEdit
         'PictureBox1
         '
         Me.PictureBox1.ErrorImage = Nothing
-        Me.PictureBox1.Image = Global.CIS422_GUI.My.Resources.Resources.green
+        Me.PictureBox1.Image = Global.CIS422_GUI.My.Resources.Resources.yellow
         Me.PictureBox1.Location = New System.Drawing.Point(28, 12)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox1.Name = "PictureBox1"
@@ -566,15 +515,215 @@ Partial Class SectionEdit
         Me.NotifyIcon1.Text = "NotifyIcon1"
         Me.NotifyIcon1.Visible = True
         '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("VNI-Avo", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.TextBox1.Location = New System.Drawing.Point(165, 136)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(125, 29)
+        Me.TextBox1.TabIndex = 76
+        Me.TextBox1.Text = "CS"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Font = New System.Drawing.Font("VNI-Avo", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.TextBox2.Location = New System.Drawing.Point(165, 184)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(125, 29)
+        Me.TextBox2.TabIndex = 76
+        Me.TextBox2.Text = "146"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Font = New System.Drawing.Font("VNI-Avo", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.TextBox3.Location = New System.Drawing.Point(496, 136)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(125, 29)
+        Me.TextBox3.TabIndex = 76
+        Me.TextBox3.Text = "CS"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Font = New System.Drawing.Font("VNI-Avo", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.TextBox4.Location = New System.Drawing.Point(496, 184)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(125, 29)
+        Me.TextBox4.TabIndex = 76
+        Me.TextBox4.Text = "70"
+        '
+        'TextBox16
+        '
+        Me.TextBox16.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.TextBox16.Location = New System.Drawing.Point(458, 482)
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Size = New System.Drawing.Size(79, 31)
+        Me.TextBox16.TabIndex = 78
+        '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.NumericUpDown1.Location = New System.Drawing.Point(519, 434)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(63, 31)
+        Me.NumericUpDown1.TabIndex = 79
+        '
+        'NumericUpDown2
+        '
+        Me.NumericUpDown2.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.NumericUpDown2.Location = New System.Drawing.Point(568, 387)
+        Me.NumericUpDown2.Name = "NumericUpDown2"
+        Me.NumericUpDown2.Size = New System.Drawing.Size(63, 31)
+        Me.NumericUpDown2.TabIndex = 80
+        '
+        'NumericUpDown3
+        '
+        Me.NumericUpDown3.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.NumericUpDown3.Location = New System.Drawing.Point(563, 524)
+        Me.NumericUpDown3.Name = "NumericUpDown3"
+        Me.NumericUpDown3.Size = New System.Drawing.Size(63, 31)
+        Me.NumericUpDown3.TabIndex = 80
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker1.Location = New System.Drawing.Point(149, 267)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(1)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.RightToLeftLayout = True
+        Me.DateTimePicker1.Size = New System.Drawing.Size(178, 31)
+        Me.DateTimePicker1.TabIndex = 81
+        '
+        'DateTimePicker2
+        '
+        Me.DateTimePicker2.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker2.Location = New System.Drawing.Point(149, 315)
+        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(1)
+        Me.DateTimePicker2.Name = "DateTimePicker2"
+        Me.DateTimePicker2.Size = New System.Drawing.Size(178, 31)
+        Me.DateTimePicker2.TabIndex = 81
+        '
+        'NumericUpDown4
+        '
+        Me.NumericUpDown4.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.NumericUpDown4.Location = New System.Drawing.Point(154, 387)
+        Me.NumericUpDown4.Name = "NumericUpDown4"
+        Me.NumericUpDown4.Size = New System.Drawing.Size(63, 31)
+        Me.NumericUpDown4.TabIndex = 80
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"AM", "PM"})
+        Me.ComboBox3.Location = New System.Drawing.Point(231, 435)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(72, 32)
+        Me.ComboBox3.TabIndex = 83
+        Me.ComboBox3.Text = "123"
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"AM", "PM"})
+        Me.ComboBox4.Location = New System.Drawing.Point(153, 435)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(72, 32)
+        Me.ComboBox4.TabIndex = 84
+        Me.ComboBox4.Text = "SE"
+        '
+        'ComboBox5
+        '
+        Me.ComboBox5.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Items.AddRange(New Object() {"AM", "PM"})
+        Me.ComboBox5.Location = New System.Drawing.Point(149, 482)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(154, 32)
+        Me.ComboBox5.TabIndex = 85
+        Me.ComboBox5.Text = "James, Scott"
+        '
+        'ComboBox6
+        '
+        Me.ComboBox6.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ComboBox6.FormattingEnabled = True
+        Me.ComboBox6.Items.AddRange(New Object() {"AM", "PM"})
+        Me.ComboBox6.Location = New System.Drawing.Point(149, 530)
+        Me.ComboBox6.Name = "ComboBox6"
+        Me.ComboBox6.Size = New System.Drawing.Size(154, 32)
+        Me.ComboBox6.TabIndex = 85
+        Me.ComboBox6.Text = "LEC"
+        '
+        'DateTimePicker3
+        '
+        Me.DateTimePicker3.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.DateTimePicker3.Location = New System.Drawing.Point(502, 265)
+        Me.DateTimePicker3.Margin = New System.Windows.Forms.Padding(1)
+        Me.DateTimePicker3.Name = "DateTimePicker3"
+        Me.DateTimePicker3.RightToLeftLayout = True
+        Me.DateTimePicker3.Size = New System.Drawing.Size(124, 31)
+        Me.DateTimePicker3.TabIndex = 81
+        Me.DateTimePicker3.Value = New Date(2022, 10, 31, 8, 30, 0, 0)
+        '
+        'DateTimePicker4
+        '
+        Me.DateTimePicker4.Enabled = False
+        Me.DateTimePicker4.Font = New System.Drawing.Font("VNI-Avo", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.DateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.DateTimePicker4.Location = New System.Drawing.Point(502, 313)
+        Me.DateTimePicker4.Margin = New System.Windows.Forms.Padding(1)
+        Me.DateTimePicker4.Name = "DateTimePicker4"
+        Me.DateTimePicker4.Size = New System.Drawing.Size(124, 31)
+        Me.DateTimePicker4.TabIndex = 81
+        Me.DateTimePicker4.Value = New Date(2022, 10, 31, 10, 20, 0, 0)
+        '
+        'RichTextBox1
+        '
+        Me.RichTextBox1.Font = New System.Drawing.Font("VNI-Avo", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.RichTextBox1.Location = New System.Drawing.Point(43, 580)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.Size = New System.Drawing.Size(588, 120)
+        Me.RichTextBox1.TabIndex = 86
+        Me.RichTextBox1.Text = "NOTES:"
+        '
+        'RichTextBox2
+        '
+        Me.RichTextBox2.Font = New System.Drawing.Font("VNI-Avo", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.RichTextBox2.Location = New System.Drawing.Point(43, 706)
+        Me.RichTextBox2.Name = "RichTextBox2"
+        Me.RichTextBox2.Size = New System.Drawing.Size(588, 120)
+        Me.RichTextBox2.TabIndex = 87
+        Me.RichTextBox2.Text = "Comments for Academic Affairs:"
+        '
         'SectionEdit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(663, 924)
+        Me.Controls.Add(Me.RichTextBox2)
+        Me.Controls.Add(Me.RichTextBox1)
+        Me.Controls.Add(Me.ComboBox6)
+        Me.Controls.Add(Me.ComboBox5)
+        Me.Controls.Add(Me.ComboBox4)
+        Me.Controls.Add(Me.ComboBox3)
+        Me.Controls.Add(Me.DateTimePicker4)
+        Me.Controls.Add(Me.DateTimePicker3)
+        Me.Controls.Add(Me.DateTimePicker2)
+        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.NumericUpDown3)
+        Me.Controls.Add(Me.NumericUpDown4)
+        Me.Controls.Add(Me.NumericUpDown2)
+        Me.Controls.Add(Me.NumericUpDown1)
+        Me.Controls.Add(Me.TextBox16)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ListBox2)
-        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label31)
@@ -582,7 +731,6 @@ Partial Class SectionEdit
         Me.Controls.Add(Me.Label27)
         Me.Controls.Add(Me.Label26)
         Me.Controls.Add(Me.Label23)
-        Me.Controls.Add(Me.Label36)
         Me.Controls.Add(Me.Label34)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label29)
@@ -591,7 +739,6 @@ Partial Class SectionEdit
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label28)
         Me.Controls.Add(Me.Label21)
-        Me.Controls.Add(Me.Label35)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label33)
         Me.Controls.Add(Me.Label11)
@@ -605,8 +752,6 @@ Partial Class SectionEdit
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label32)
         Me.Controls.Add(Me.Label7)
@@ -622,13 +767,14 @@ Partial Class SectionEdit
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents ListBox2 As ListBox
-    Friend WithEvents ListBox1 As ListBox
     Friend WithEvents Label14 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label31 As Label
@@ -636,7 +782,6 @@ Partial Class SectionEdit
     Friend WithEvents Label27 As Label
     Friend WithEvents Label26 As Label
     Friend WithEvents Label23 As Label
-    Friend WithEvents Label36 As Label
     Friend WithEvents Label34 As Label
     Friend WithEvents Label22 As Label
     Friend WithEvents Label29 As Label
@@ -645,7 +790,6 @@ Partial Class SectionEdit
     Friend WithEvents Label17 As Label
     Friend WithEvents Label28 As Label
     Friend WithEvents Label21 As Label
-    Friend WithEvents Label35 As Label
     Friend WithEvents Label24 As Label
     Friend WithEvents Label33 As Label
     Friend WithEvents Label11 As Label
@@ -659,8 +803,6 @@ Partial Class SectionEdit
     Friend WithEvents Label6 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label32 As Label
     Friend WithEvents Label7 As Label
@@ -672,4 +814,23 @@ Partial Class SectionEdit
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents NotifyIcon1 As NotifyIcon
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents NumericUpDown1 As NumericUpDown
+    Friend WithEvents NumericUpDown2 As NumericUpDown
+    Friend WithEvents NumericUpDown3 As NumericUpDown
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents NumericUpDown4 As NumericUpDown
+    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents ComboBox6 As ComboBox
+    Friend WithEvents DateTimePicker3 As DateTimePicker
+    Friend WithEvents DateTimePicker4 As DateTimePicker
+    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents RichTextBox2 As RichTextBox
 End Class
