@@ -33,3 +33,38 @@ D:\FALL 2022\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\refint\CI
 D:\FALL 2022\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.pdb
 D:\FALL 2022\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.genruntimeconfig.cache
 D:\FALL 2022\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\ref\CIS422_GUI.dll
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.vbproj.AssemblyReference.cache
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.admin.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.Email_Faculty.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.export_options.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.Temporary_Import.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.ForgetScreen.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.ForgotPassword.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.Login.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.Success_ForgetPassword.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.Resources.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.Filter.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.MainScreen.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.SectionEdit.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.SectionInfo.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.MainScreen.dje-NE.resources
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.vbproj.GenerateResource.cache
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.AssemblyInfoInputs.cache
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.AssemblyInfo.vb
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.vbproj.CoreCompileInputs.cache
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.dll
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\refint\CIS422_GUI.dll
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.pdb
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\bin\Debug\net6.0-windows\CIS422_GUI.exe
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\bin\Debug\net6.0-windows\CIS422_GUI.dll.config
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\bin\Debug\net6.0-windows\CIS422_GUI.deps.json
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\bin\Debug\net6.0-windows\CIS422_GUI.runtimeconfig.json
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\bin\Debug\net6.0-windows\CIS422_GUI.dll
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\bin\Debug\net6.0-windows\CIS422_GUI.pdb
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\bin\Debug\net6.0-windows\dje-NE\CIS422_GUI.resources.dll
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\bin\Debug\net6.0-windows\WindowsFormsCalendar.dll
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\dje-NE\CIS422_GUI.resources.dll
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.vbproj.CopyComplete
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\CIS422_GUI.genruntimeconfig.cache
+C:\Users\bddang\Source\Repos\CIS422_GUI\CIS422_GUI\CIS422_GUI\obj\Debug\net6.0-windows\ref\CIS422_GUI.dll

@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FALL 2022\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI.vbproj": {}
+    "C:\\Users\\bddang\\Source\\Repos\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI.vbproj": {}
   },
   "projects": {
-    "D:\\FALL 2022\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI.vbproj": {
+    "C:\\Users\\bddang\\Source\\Repos\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FALL 2022\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI.vbproj",
+        "projectUniqueName": "C:\\Users\\bddang\\Source\\Repos\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI.vbproj",
         "projectName": "CIS422_GUI",
-        "projectPath": "D:\\FALL 2022\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI.vbproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\FALL 2022\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI\\obj\\",
+        "projectPath": "C:\\Users\\bddang\\Source\\Repos\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI.vbproj",
+        "packagesPath": "C:\\Users\\bddang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bddang\\Source\\Repos\\CIS422_GUI\\CIS422_GUI\\CIS422_GUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bddang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

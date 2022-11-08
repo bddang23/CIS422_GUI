@@ -10,4 +10,11 @@
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         tabControl.SelectedTab = tabBuilding
     End Sub
+
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        tabControl.SelectedTab = tabGuideline
+    End Sub
+
+
 End Class
